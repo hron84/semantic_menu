@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name = 'semantic_navigation'
+  s.name = 'semantic_menu'
   s.version = '1.0'
   s.date = '2009-11-10'
   
@@ -17,4 +17,6 @@ Gem::Specification.new do |s|
   
   s.files = %w(CHANGELOG.rdoc MIT-LICENSE README.rdoc Rakefile init.rb install.rb lib/menu_helper.rb lib/semantic_menu.rb test/semantic_menu_test.rb tasts/semantic_menu_tasks.rake public/stylesheets/semantic-menu.css)
   s.test_files = %w(test/semantic_menu_test.rb)
+  
+  s.add_dependency 'rails'
 end

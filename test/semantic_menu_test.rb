@@ -1,5 +1,6 @@
 require 'test/unit'
 require 'rubygems'
+require 'bundler/setup'
 require 'active_support'
 require 'active_support/test_case'
 require 'action_controller' # grr, action_view now breaks without it
